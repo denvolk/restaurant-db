@@ -1,0 +1,107 @@
+{
+  "lang": [
+    {"id": 1, "name": "eng", "restname": "RESTAURANT", "menu": "Menu"},
+    {"id": 2, "name": "ru", "restname": "РЕСТОРАН", "menu": "Меню"}
+  ],
+  "menu": [
+    {"id": 1, "name": {"eng": "soup", "ru": "суп"}},
+    {"id": 2, "name": {"eng": "pizza", "ru": "пицца"}},
+    {"id": 3, "name": {"eng": "drinks", "ru": "напитки"}}
+  ],
+  "foodsru": [
+    {"id": 1, "name": "Пиццы", "hash": "pizzas",
+      "data": [
+        {"id": 1, "name": "пицца1", "desc": "описание1", "amount": "10", "weight": "100", "img": "pizza1"},
+        {"id": 2, "name": "пицца2", "desc": "описание2", "amount": "100", "weight": "200", "img": "pizza2"},
+        {"id": 3, "name": "пицца3", "desc": "описание3", "amount": "1000", "weight": "300", "img": "pizza3"},
+        {"id": 4, "name": "пицца4", "desc": "описание4", "amount": "10000", "weight": "400", "img": "pizza4"},
+        {"id": 5, "name": "пицца5", "desc": "описание5", "amount": "100000", "weight": "500", "img": "pizza5"},
+        {"id": 6, "name": "пицца6", "desc": "описание6", "amount": "1000000", "weight": "600", "img": "pizza6"}
+      ]
+    },
+    {"id": 2, "name": "Супы", "hash": "soups",
+      "data": [
+        {"id": 1, "name": "суп1", "desc": "описание1", "amount": "10", "weight": "100", "img": "soup1"},
+        {"id": 2, "name": "суп2", "desc": "описание2", "amount": "100", "weight": "200", "img": "soup2"},
+        {"id": 3, "name": "суп3", "desc": "описание3", "amount": "1000", "weight": "300", "img": "soup3"},
+        {"id": 4, "name": "суп4", "desc": "описание4", "amount": "10000", "weight": "400", "img": "soup4"}
+      ]
+    },
+    {"id": 3, "name": "Напитки", "hash": "drinks",
+      "data": [
+        {"id": 1, "name": "напиток1", "desc": "описание1", "amount": "10", "weight": "100", "img": "drink1"},
+        {"id": 2, "name": "напиток2", "desc": "описание2", "amount": "100", "weight": "200", "img": "drink2"},
+        {"id": 3, "name": "напиток3", "desc": "описание3", "amount": "1000", "weight": "300", "img": "drink3"},
+        {"id": 4, "name": "напиток4", "desc": "описание4", "amount": "10000", "weight": "400", "img": "drink4"},
+        {"id": 5, "name": "напиток5", "desc": "описание5", "amount": "100000", "weight": "500", "img": "drink5"}
+      ]
+    }
+  ],
+  "foodseng": [
+    {"id": 1, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 2, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 3, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 4, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 5, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 6, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 7, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 8, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 9, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 10, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 11, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 12, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 13, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 14, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 15, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 16, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 17, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 18, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 19, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 20, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 21, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 22, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 23, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 24, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 25, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 26, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 27, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 28, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 29, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 30, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 31, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 32, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 33, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 34, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 35, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 36, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 37, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 38, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 39, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 40, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 41, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 42, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 43, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 44, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 45, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 46, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 47, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 48, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 49, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 50, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 51, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 52, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 53, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 54, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 55, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 56, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 57, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"},
+    {"id": 58, "name": "name1", "desc": "desc1", "amount": "10", "weight": "100", "img": "pizza"},
+    {"id": 59, "name": "name2", "desc": "desc2", "amount": "100", "weight": "200", "img": "pizza"},
+    {"id": 60, "name": "name3", "desc": "desc3", "amount": "1000", "weight": "300", "img": "pizza"}
+  ],
+  "combo": [
+    {"id": 1, "name": {"eng": "combo1", "ru": "комбо1"}, "foods": "1-1,2-1,3-1", "desc": {"eng": "combo1desc", "ru": "комбо1описание"}},
+    {"id": 2, "name": {"eng": "combo2", "ru": "комбо2"}, "foods": "1-2,2-2,3-2", "desc": {"eng": "combo2desc", "ru": "комбо2описание"}},
+    {"id": 3, "name": {"eng": "combo3", "ru": "комбо3"}, "foods": "1-3,2-3,3-3", "desc": {"eng": "combo3desc", "ru": "комбо3описание"}}
+  ]
+}

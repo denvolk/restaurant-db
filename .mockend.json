@@ -1,45 +1,45 @@
 {
-	"Section": {
-		"id": {
-			"int": {
-				"min": 0,
-				"max": 10
-			}
-		},
-		"name": {
-			"loremWord": {}
-		},
-		"hash": {
-			"loremWord": {}
-		},
-		"datas": {
-			"hasMany": "Data"
-		}
-	},
-	"Data": {
-		"id": {
-			"int": {
-				"min": 0,
-				"max": 20
-			}
-		},
-		"name": {
-			"loremWords": {"minLength": 1, "maxLength": 5}	
-		},
-		"desc": {
-			"loremWords": {"minLength": 8, "maxLength": 20}
-		},
-		"weight": {
-			"int": {
-					"min": 100,
-					"max": 800
-				}
-		},
-		"img": {
-			"regexp": "https://picsum\\.photos/seed/[0-9]{5}/216/188"
-		}
-		"section": {
-			"belongsTo": "Section"
-		}
-	}
+  "Section": {
+    "id": {
+      "int": {
+        "min": 0,
+        "max": 10
+      }
+    },
+    "name": {
+      "loremWord": {}
+    },
+    "hash": {
+      "loremWord": {}
+    },
+    "datas": {
+      "hasMany": "Data"
+    }
+  },
+  "Data": {
+    "id": {
+      "int": {
+        "min": 0,
+        "max": 20
+      }
+    },
+    "name": {
+      "loremWords": {"minLength": 1, "maxLength": 5}
+    },
+    "desc": {
+      "loremWords": {"minLength": 8, "maxLength": 20}
+    },
+    "weight": {
+      "int": {
+        "min": 100,
+        "max": 800
+      }
+    },
+    "img": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/216/188"
+    },
+    "section": {
+      "belongsTo": "Section"
+    }
+  }
 }

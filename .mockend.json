@@ -81,7 +81,7 @@
 			"loremWords": {"minLength": 6, "maxLength": 6}
 		}
 	},
-	"Foodsru": {
+	"Post": {
 		"id": {
 			"int": {
 				"min": 0,
@@ -94,19 +94,19 @@
 		"hash": {
 			"loremWord": {}
 		},
-		"datas": {
-			"hasMany": "Data"
+		"comments": {
+			"hasMany": "Comment"
 		}
 	},
-	"Data": {
+	"Comment": {
 		"body": {
 			"int": {
 				"min": 0,
 				"max": 100
 			}
 		},
-		"dataFoodsru": {
-			"belongsTo": "Foodsru"
+		"post": {
+			"belongsTo": "Post"
 		}
 	}
 }

@@ -1,4 +1,18 @@
 {
+  "Lang": {
+    "id": {
+			"int": {
+				"min": 0,
+				"max": 100
+			}
+		},
+		"name": {
+			"loremWord": {}
+		},
+    "sections": {
+      "hasMany": "Section"
+    }
+  },
   "Section": {
     "id": {
       "int": {
@@ -14,6 +28,9 @@
     },
     "datas": {
       "hasMany": "Data"
+    },
+    "lang": {
+      "belongsTo": "Lang"
     }
   },
   "Data": {

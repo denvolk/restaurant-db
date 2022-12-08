@@ -163,8 +163,10 @@
 	},
 	"Foodsru": {
 		"id": {
-			"min": 0,
-			"max": 100
+			"int": {
+				"min": 0,
+				"max": 100	
+			}
 		},
 		"name": {
 			"loremWord": {}
@@ -178,8 +180,10 @@
 	},
 	"Data": {
 		"id": {
-			"min": 0,
-			"max": 100
+			"int": {
+				"min": 0,
+				"max": 100	
+			}
 		},
 		"name": {
 			"loremWords": {"minLength": 1, "maxLength": 5}

@@ -7,158 +7,158 @@
 			}
 		},
 		"name": {
-			"string": {
+			"string": [
 				"ru",
 				"eng",
 				"lat"
-			}
+			]
 		},
 		"cart-empty": {
-			"string": {
+			"string": [
 				"Корзина пуста",
 				"Cart is empty",
 				"Oformit zakaz"
-			}
+			]
 		},
 		"order-btn": {
-			"string": {
+			"string": [
 				"Оформить заказ",
 				"Place order",
 				"Oformit zakaz"
-			}
+			]
 		},
 		"clear-cart-btn": {
-			"string": {
+			"string": [
 				"Очистить корзину",
 				"Clear cart",
 				"Ochistit korzinu"
-			}
+			]
 		},
 		"first-name": {
-			"string": {
+			"string": [
 				"Имя",
 				"First Name",
 				"Imya"
-			}
+			]
 		},
 		"last-name": {
-			"string": {
+			"string": [
 				"Фамилия",
 				"Last Name",
 				"Familiya"
-			}
+			]
 		},
 		"address": {
-			"string": {
+			"string": [
 				"Адрес",
 				"Address",
 				"Adres"
-			}
+			]
 		},
 		"phone": {
-			"string": {
+			"string": [
 				"Телефон",
 				"Phone",
 				"Telephone"
-			}
+			]
 		},
 		"phone-mask": {
-			"string": {
+			"string": [
 				"+7 (XXX) XXX-XX-XX",
 				"+7 (XXX) XXX-XX-XX",
 				"+7 (XXX) XXX-XX-XX"
-			}
+			]
 		},
 		"comment": {
-			"string": {
+			"string": [
 				"Дополнительная информация",
 				"Additional information",
 				"Dopolnitelnaya informachiya"
-			}
+			]
 		},
 		"free-delivery": {
-			"int": {
+			"int": [
 				1000,
 				1000,
 				1000
-			}
+			]
 		},
 		"delivery-cost": {
-			"int": {
+			"int": [
 				200,
 				200,
 				200
-			}
+			]
 		},
 		"order-info": {
-			"string": {
+			"string": [
 				"Информация о заказе",
 				"Order info",
 				"Informachiya o zakaze"
-			}
+			]
 		},
 		"order-cost": {
-			"string": {
+			"string": [
 				"Стоимость товаров",
 				"Goods cost",
 				"Stoimost zakazov"
-			}
+			]
 		},
 		"order-full-cost": {
-			"string": {
+			"string": [
 				"Общая стоимость",
 				"Full cost",
 				"Obshaya stoimost"
-			}
+			]
 		},
 		"order-delivery-cost": {
-			"string": {
+			"string": [
 				"Стоимость доставки",
 				"Delivery cost",
 				"Stoimost dostavki"
-			}
+			]
 		},
 		"order-text-one": {
-			"string": {
+			"string": [
 				"Ваш заказ",
 				"Your order",
 				"Vash zakaz"
-			}
+			]
 		},
 		"order-text-two": {
-			"string": {
+			"string": [
 				"был оформлен",
 				"is placed",
 				"bil oformlen"
-			}
+			]
 		},
 		"order-text-three": {
-			"string": {
+			"string": [
 				"Наш менеджер скоро свяжется с вами по указанному номеру телефона",
 				"Our manager will soon contact you using provided phone number",
 				"Nash menedger skoro svyagetsa s vami po ukazannomu nomeru telefona"
-			}
+			]
 		},
 		"order-text-four": {
-			"string": {
+			"string": [
 				"Если вам не перезвонят в течении 10 минут, пожалуйста позвоните нам по номеру",
 				"If you don't get a call in 10 minutes please call us using this number",
 				"Esli vam ne perezvonyat v techenii 10 minut, pogaluista pozvonite nam po nomeru"
-			}
+			]
 		},
 		"order-text-five": {
-			"string": {
+			"string": [
 				"и предоставьте номер вашего заказа",
 				"and provide your order number",
 				"i predostavte nomer vashego zakaza"
-			}
+			]
 		},
 		"restaurant-address": {
-			"string": {
+			"string": [
 				"Ул. Пушкина, д. 133, помещение 25",
 				"Pushkina St, Apt 133, Off 25",
 				"Ul. Pushkina, d. 133, pomeshenie 25"
-			}
+			]
 		}
 	}
 }

@@ -119,6 +119,9 @@
 		},
 		"img": {
 			"regexp": "https://picsum\\.photos/seed/[0-9]{5}/216/188"
+		},
+		"foodsru": {
+			"belongsTo": "Foodsru"
 		}
 	}
 }

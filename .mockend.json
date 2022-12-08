@@ -100,11 +100,9 @@
 	},
 	"Data": {
 		"body": {
-			"id": {
-				"int": {
-					"min": 0,
-					"max": 100
-				}
+			"int": {
+				"min": 0,
+				"max": 100
 			}
 		},
 		"foodsru": {

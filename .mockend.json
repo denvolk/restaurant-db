@@ -1,5 +1,5 @@
 {
-	"Post": {
+	"Foodsru": {
 		"id": {
 			"int": {
 				"min": 0,
@@ -12,19 +12,19 @@
 		"hash": {
 			"loremWord": {}
 		},
-		"comments": {
-			"hasMany": "Comment"
+		"datas": {
+			"hasMany": "Data"
 		}
 	},
-	"Comment": {
+	"Data": {
 		"body": {
 			"int": {
 				"min": 0,
 				"max": 100
 			}
 		},
-		"post": {
-			"belongsTo": "Post"
+		"foodsru": {
+			"belongsTo": "Foodsru"
 		}
 	}
 }
